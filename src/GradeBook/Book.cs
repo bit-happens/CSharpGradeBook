@@ -15,9 +15,9 @@ namespace GradeBook
             {
                 grades.Add(grade);
             }
-            public void ShowStatistics()
+            public Statistics GetStatistics()
             {
-                var result = 0.0;
+                var result = new Statistics();
                 var highGrade = double.MinValue;
                 var lowGrade = double.MaxValue;
             
