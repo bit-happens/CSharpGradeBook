@@ -1,4 +1,4 @@
 .vscode
-src/bin
-src/obj
+src/GradeBook/bin
+src/GradeBook/obj
 
