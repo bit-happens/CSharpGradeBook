@@ -4,7 +4,8 @@ using System.Collections.Generic;
 namespace GradeBook
 {
       class Book 
-      {
+      { 
+            //classes help with encapsulation and code reusability
             public Book(string name)
             {
                 grades = new List<double>();
