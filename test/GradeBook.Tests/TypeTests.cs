@@ -80,7 +80,17 @@ namespace GradeBook.Tests
         [Fact]
         public void StringsBehaveLikeValueTypes()
         {
+            string name = "Query";
+            var upper = MakeUppercase(name);
 
+            Assert.Equal("Query", name);
+            Assert.Equal("QUERY", upper);
+        }
+
+        private string MakeUppercase(string parameter)
+        {
+            
+            return parameter.ToUpper();
         }
 
         [Fact]
